@@ -24,6 +24,8 @@ github_username:  icoul
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+relative_permalinks: false
 theme: minima
 gems:
   - jekyll-feed
