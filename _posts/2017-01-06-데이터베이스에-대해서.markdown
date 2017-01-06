@@ -21,7 +21,8 @@ mySql, Orale, msSQL이 모두 관계형 데이터베이스이며 이들은 sql�
 SQL문 : 데이터를 핸들링하기 위한(제어하기 위한) 규칙
 
 ## 데이터베이스 시스템의 구성
-![친절한 스크린샷](/images/database구조.png)
+![친절한 스크린샷](https://icoul.github.io/images/database구조.png)  
+(이미지 출처 : 생활코딩)  
 
 데이터베이스 서버 : 데이터를 저장하고 관리하는 곳  
 데이터베이스 : 테이블을 카테고라이징 한 것  

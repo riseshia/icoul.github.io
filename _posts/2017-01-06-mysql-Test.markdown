@@ -50,6 +50,6 @@ public class DBConnTest {
   
 test/java 패키지에 DB 테스트용 class를 만들고 테스트 코드를 입력한다.  
   
-![스크린샷](/images/mySQL_Test_01.PNG)
+![스크린샷](https://icoul.github.io/images/mySQL_Test_01.PNG)
   
 코드를 돌렸을 때 이상과 같이 초록색바가 뜬다면 mySQL과 Spring이 문제없이 연결된 것이다.   

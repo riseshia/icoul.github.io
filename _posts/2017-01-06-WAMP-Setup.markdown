@@ -12,7 +12,7 @@ TOMCAT, mySQL, PHP를 포함한 것으로 웹사이트를 만드는데 필요한
 
 ## bitnami WAMP 설치하기
 
-![친절한 스크린샷](/images/wamp_download.JPG)  
+![친절한 스크린샷](https://icoul.github.io/images/wamp_download.JPG)  
   
 다운받는 방법은 심플하다 bitnami 사이트에 접속하여 wamp를 다운받기만 하면 된다.  
 그 과정에서 아이디를 만들어서 더 많은 혜택을 제공받으라고 어쩌고 저쩌고 하는데  
@@ -20,7 +20,7 @@ TOMCAT, mySQL, PHP를 포함한 것으로 웹사이트를 만드는데 필요한
   
 이 후 별다른 세팅 없이 설치를 진행하면 된다.  
   
-![친절한 스크린샷](/images/wamp_install_01.png)  
+![친절한 스크린샷](https://icoul.github.io/images/wamp_install_01.png)  
   
 단, 이 때 설정하는 비밀번호는 향후 사용할 mySQL의 비밀번호이므로 꼭 기억해두자.  
 기본 계정명은 root이다.  
@@ -30,6 +30,6 @@ TOMCAT, mySQL, PHP를 포함한 것으로 웹사이트를 만드는데 필요한
 `Open phpMyAdmin`을 통해 phpMyAdmin에 접속해본다.  
 이 때 유저명은 root, 비밀번호는 방금 설치 시 설정했던 비밀번호를 입력한다.  
   
-  ![친절한 스크린샷](/images/wamp_install_02.png)  
+  ![친절한 스크린샷](https://icoul.github.io/images/wamp_install_02.png)  
   
 이상과 같이 접속이 된다면 mySQL 설치는 끝난 것이다.
