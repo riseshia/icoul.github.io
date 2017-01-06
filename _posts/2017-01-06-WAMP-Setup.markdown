@@ -12,7 +12,7 @@ TOMCAT, mySQL, PHP를 포함한 것으로 웹사이트를 만드는데 필요한
 
 ## bitnami WAMP 설치하기
 
-![친절한 스크린샷](/images/wamp_download.jpg)  
+![친절한 스크린샷](/images/wamp_download.JPG)  
   
 다운받는 방법은 심플하다 bitnami 사이트에 접속하여 wamp를 다운받기만 하면 된다.  
 그 과정에서 아이디를 만들어서 더 많은 혜택을 제공받으라고 어쩌고 저쩌고 하는데  
