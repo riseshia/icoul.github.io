@@ -4,9 +4,9 @@ title: "파이썬의 함수선언"
 category: python
 ---
 
-{% highlight python %}
+```Python
 SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
-            1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']}
+			1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']}
 
 def approximate_size(size, a_kilobyte_is_1024_bytes=True):
     if size < 0:
@@ -23,7 +23,7 @@ def approximate_size(size, a_kilobyte_is_1024_bytes=True):
 if __name__ == '__main__':
     print(approximate_size(1000000000000, False))
     print(approximate_size(1000000000000))
-{% endhighlight %}
+```
   
   
 ## 파이썬에서의 함수선언
