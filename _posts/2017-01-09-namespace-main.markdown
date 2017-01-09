@@ -17,14 +17,17 @@ category: python
 module과 namespace의 관계는 import를 통해 좀 더 쉽게 이해할 수 있다.  
   
 __1: import&lt;module_name>__  
-아래의 예제에서 sys는 module의 이름이며 path는 module의 namespace에 속해있는 name의 목록이다.  
+아래의 예제에서 sys는 module의 이름이며 path는 module의 namespace에 속해있는 name의 목록을 가져오는 sys에 속한 함수이다.  
+해당 module의 name들을 가져와서 mainscript에서 사용하도록 허가해준다는 느낌으로  
 name을 사용하기 위해서는 module의 namespace에 접근해야하며 이를 위해 sys를 prefix로 붙여서 사용해야만한다.  
   
 ```Python
 import sys
 
 sys.path
-['', 'C:\\Python34\\Lib\\idlelib', 'C:\\Windows\\system32\\python34.zip', 'C:\\Python34\\DLLs', 'C:\\Python34\\lib', 'C:\\Python34', 'C:\\Python34\\lib\\site-packages']
+
+##=> ['', 'C:\\Python34\\Lib\\idlelib', 'C:\\Windows\\system32\\python34.zip',  
+     'C:\\Python34\\DLLs', 'C:\\Python34\\lib', 'C:\\Python34']
 ```
   
   
@@ -37,7 +40,8 @@ module의 namespace에서 import이하로 지정한 name들을 직접 가져오�
 from sys import path
 
 path
-['', 'C:\\Python34\\Lib\\idlelib', 'C:\\Windows\\system32\\python34.zip', 'C:\\Python34\\DLLs', 'C:\\Python34\\lib', 'C:\\Python34', 'C:\\Python34\\lib\\site-packages']
+##=> ['', 'C:\\Python34\\Lib\\idlelib', 'C:\\Windows\\system32\\python34.zip',  
+     'C:\\Python34\\DLLs', 'C:\\Python34\\lib', 'C:\\Python34']
 ```
   
   
@@ -52,7 +56,7 @@ __3: from&lt;module_name> import *__
 즉,  
 __python test.py와 같이 직접 쉘에서 실행하는 경우 파이썬 인터프리터가 해당 test.py라는 module을 script라는 namespace가 아닌 &#95;&#95;main&#95;&#95;이라는 namespace로 간주하여 다루게 된다.__  
 그러므로  
-```Python
+```
 if __name__ == "__main__"
 ```
 의 의미는 __만약 이 파일이 파이썬 인터프리터로 실행되는 경우라면__ 이라는 의미이다.  
