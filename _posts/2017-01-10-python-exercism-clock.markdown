@@ -141,7 +141,8 @@ class Clock:
 2. allmin이라는 변수명은 다소 애매한 의미를 준다. 좀 더 명확한 의미를 가지는 변수명으로 교체.  
   
 등의 문제를 수정하면 최종적으로 이러한 코드가 된다.  
-```python
+  
+```python  
 class Clock:
     
     def __init__(self, hour, minute):
