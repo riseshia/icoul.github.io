@@ -133,7 +133,8 @@ del메서드는 속성을 지울 때 마다 호출되는 메서드입니다.
   
 ## 함수처럼 동작하는 class. &#95;&#95;call&#95;&#95;()
 call 메서드는 class 내에 정의되면 해당 class를 함수처럼 사용할 수 있게 해줍니다.  
-```python
+  
+```python  
 class Test:
 	def __init__(self, value):
 		self.value = value
@@ -145,7 +146,8 @@ test = Test('value')
 result = list(map(test, range(5)))
 print(result)
 ##=> [0, 1, 4, 9, 16]
-```
+```  
+  
 위의 예제에서 Test class는 init메서드를 통해 초기화하고 call메서드를 통해 함수로 사용되었을 경우  
 받은 인자를 제곱하여 반환하는 형태를 가지고 있습니다.  
 call메서드가 있기 때문에 첫번째 인자로 함수를 사용하는 map()메서드에 들어가도 아무 문제가 없는 것이지요.  
