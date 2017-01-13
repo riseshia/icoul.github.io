@@ -265,7 +265,7 @@ def __enter__(self):
 def __exit__(self, *args):
     '''Context management protocol.  Calls close()'''
     self.close() 
-
+ 
 #코드 출처 : CodeOnWeb 파이썬3에 뛰어들기
 ```
 with 블록의 Runtime Context에 진입하면 &#95;&#95;enter&#95;&#95; 메서드를 호출합니다.  
