@@ -23,7 +23,7 @@ twitter_username:
 github_username:  icoul
 
 # Build settings
-kramdown
+kramdown:
   input: GFM
 
 permalink: pretty
