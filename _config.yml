@@ -23,7 +23,9 @@ twitter_username:
 github_username:  icoul
 
 # Build settings
-markdown: kramdown
+kramdown
+  input: GFM
+
 permalink: pretty
 relative_permalinks: false
 theme: minima
