@@ -248,7 +248,8 @@ class명(값, 값)과 같은 형태로 class를 숫자처럼 사용할 수 있�
   
 ## with 블록과 함께 사용할 수 있는 class
 일전 파이썬에서 파일을 이용한 작업을 할 때 등장했던 with 블록에서 close() 메서드가 없음에도 에러가 발생하지 않았던 이유에 대해 여기서 설명이 됩니다.  
-```python
+  
+```python  
 # excerpt from io.py:
 def _checkClosed(self, msg=None):
     '''Internal: raise an ValueError if file is closed
@@ -267,7 +268,8 @@ def __exit__(self, *args):
     self.close() 
  
 #코드 출처 : CodeOnWeb 파이썬3에 뛰어들기
-```
+```  
+  
 with 블록의 Runtime Context에 진입하면 &#95;&#95;enter&#95;&#95; 메서드를 호출합니다.  
 이 때 파일이 닫혀있는지 체크하고 만약 닫혀있다면 ValueError를 발생시킵니다.  
 그리고 Runtime Context에서 빠져나올 때 &#95;&#95;exit&#95;&#95;메서드를 호출합니다.  
